@@ -31,15 +31,15 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 const tiktod = require('tiktok-scraper')
 const ffmpeg = require('fluent-ffmpeg')
 const { removeBackgroundFromImageFile } = require('remove.bg')
-const welkom = JSON.parse(fs.readFileSync('./A187ID/welkom.json'))
-const nsfw = JSON.parse(fs.readFileSync('./A187ID/nsfw.json'))
-const samih = JSON.parse(fs.readFileSync('./A187ID/simi.json'))
+const welkom = JSON.parse(fs.readFileSync('./RAMA/welkom.json'))
+const nsfw = JSON.parse(fs.readFileSync('./Rama/nsfw.json'))
+const samih = JSON.parse(fs.readFileSync('./RAMA/simi.json'))
 const vcard = 'BEGIN:VCARD\n' // ANAK ANJING MAU NGAPAIN?
             + 'VERSION:3.0\n' // NGAPAIN LAGI KALO GA MAU NUMPANG NAMA DOANG XIXIXIXI
             + 'FN:CO NOEERBOT\n' // MENDING LU TOBAT SU!
             + 'ORG:Creator NOEERBOT;\n' // KASIH CREDITS GUA SU!!!
             + 'TEL;type=CELL;type=VOICE;waid=6285722553839:+62 857-2255-3839\n' // JANGAN KEK BABI SU
-            + 'END:VCARD' // ARIS187 ID
+            + 'END:VCARD' // RAMA ID
 prefix = '!'
 const speed = require('performance-now')         
 blocked = []            
@@ -49,9 +49,9 @@ const arrayBulan = ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Jul
 const bulan = arrayBulan[moment().format('MM') - 1]
 
 const config = {
-    A187: '👾AR15BOT👾', // TOBAT SU ASU
+    A187: '👾RAMA ID👾', // TOBAT SU ASU
     instagram: 'https://instagram.com/_sadboy.ig', // INFO JANGAN DI UBAH
-    nomer: 'wa.me/6285722553839', // INFO SU JNGAN DI UBAH
+    nomer: 'wa.me/6295355566000', // INFO SU JNGAN DI UBAH
     youtube: 'https://youtube.com/channel/UCGYLWtyT9IADYNUiK0uZiGg', // KINTIL
     whatsapp: 'https://chat.whatsapp.com/DSSHmG2KjKJLoFp9B9mkVs', // BABI
     tanggal: `TANGGAL: ${moment().format('DD')} ${bulan} ${moment().format('YYYY')}`,
